@@ -24,13 +24,13 @@
             addElement(text);
             text.text = xml.toXMLString();
 
-            publisherTest.Test();
+//            text.text = publisherTest.Test();
 
         }
 
-        public function setText(str:String):void {
-            text.text = str;
-        }
+//        public function setText(str:String):void {
+//            text.text = str;
+//        }
 
         ]]>
     </fx:Script>
