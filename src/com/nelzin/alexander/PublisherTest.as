@@ -34,8 +34,8 @@ public class PublisherTest
         private function completeHandler(e:Event):void {
             var swf:SWF = new SWF(URLLoader(e.target).data as ByteArray);
             trace(swf);
-            local_text.text = "safsdfsdf";
-//            local_text.text = URLLoader(e.target).data.toString();
+//            local_text.text = "safsdfsdf";
+            local_text.text = URLLoader(e.target).data.toString();
 
 
 //            text.text = URLLoader(e.target).data.toString();
